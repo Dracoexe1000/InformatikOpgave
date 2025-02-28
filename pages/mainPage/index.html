@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hvor passer du ind?</title>
+    <link rel="icon" type="image/x-icon" href="/assets/right-arrow.png">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Øverste billede -->
+     <div class="header-container">
+        <div class="video-wrapper">
+            <video autoplay loop muted plays-inline class="baggrund-video"><source src="/assets/Sukkertoppen-video.mp4" type="video/mp4"></video>
+        </div>
+        <div class="content-wrapper">
+            <h1 class="title">Sukkertoppen Gymnasium</h1>
+        </div>
+        <img src="/assets/logo.svg" class="logo"/>
+     </div>
+
+    <!-- FØRSTE CONTAINER -->
+    <div class="container">
+        <div class="item">
+            <img src="/assets/sukkertoppen.jpg"/>
+        </div>
+        <div class="item text-item">
+            <div class="card-text">
+                <h1 class="card-title">Hvor passer du ind?</h1>
+                <p class="card-para">Bliv vurderet ud fra dine interesser for at finde den studieretning eller klub, der passer bedst til dig! Vi vil gerne lære dig bedre at kende for at give dig den bedste oplevelse!</p>
+                <hr/>
+                <div class="quiz-buttons">
+                    <button onclick="location.href='../testPage/testSide.html'">Studieretninger</button>
+                    <button onclick="location.href='quiz.html'">Klub</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Studieretninger Sektion -->
+    <div class="section" id="studieretning">
+        <h2>Studieretninger</h2>
+        <div class="grid">
+            <div>Arkitektur og design</div>
+            <div>Science fysik</div>
+            <div>Science kemi</div>
+            <div>Geoscience</div>
+            <div>Teknologi og design</div>
+            <div>Kommunikation og design</div>
+            <div>Science biologi</div>
+            <div>Computer science og programmering</div>
+            <div>Computer science og informatik</div>
+        </div>
+    </div>
+
+    <!-- Klub Sektion -->
+    <div class="section" id="klub">
+        <h2>Klubber</h2>
+        <div class="grid">
+            <div>Elevrådet</div>
+            <div>Musikklubben</div>
+            <div>Sukkerbloggen</div>
+            <div>Filmklubben</div>
+            <div>Festudvalget</div>
+            <div>Teaterklubben</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
